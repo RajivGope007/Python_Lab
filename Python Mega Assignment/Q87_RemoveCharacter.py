@@ -1,7 +1,7 @@
 string = "I write code."
 print("Give String:- ",string)
 while 1:
-    pos = int(input("Enter index to remove"))
+    pos = int(input("Enter index to remove:- "))
     if pos>=len(string):
         print("Please Enter Correct Index.")
     else:
